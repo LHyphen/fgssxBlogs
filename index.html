@@ -22,8 +22,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-09-16 datetime="2022-09-16T20:39:17.000Z">2022-09-16</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-09-16 datetime="2022-09-16T20:39:17.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-09-17 datetime="2022-09-17T03:29:34.000Z">2022-09-17</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-09-17 datetime="2022-09-17T03:29:34.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -34,218 +34,34 @@
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
-                  >freeCodeCamp.org</button>
-                  <a class="source-heading__link" href="https://www.freecodecamp.org/news/">Open</a>
+                  >VATE快乐屋</button>
+                  <a class="source-heading__link" href="https://blog.vatebur.cn">Open</a>
                 </h3>
                 <section class="articles-per-source">
                     <article>
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.freecodecamp.org/news/what-is-alt-text-image-alt-text-html-example/"
+                        data-accordion-key="https://blog.vatebur.cn/archives/shen-ru-qian-chu-mysql-xue-xi-bi-ji-zhi-pssys-shu-ju-ku"
                         open
                       >
-                        <summary class="article-expander__title">What is Alt Text? Image Alt Text HTML Example</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/what-is-alt-text-image-alt-text-html-example/">
+                        <summary class="article-expander__title">深入浅出MySQL学习笔记之——PS/SYS 数据库</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://blog.vatebur.cn/archives/shen-ru-qian-chu-mysql-xue-xi-bi-ji-zhi-pssys-shu-ju-ku">
                           <div class="article-summary-box-inner media-object">
-                              <img src="https://www.freecodecamp.org/news/content/images/2022/09/cover-template--1-.jpg" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
-                              <span>Images play a significant role on our web pages. They help explain concepts better, make our web pages visually attractive, and lots more. In HTML, you use the  tag to embed an image into your web page. This  tag has two required attributes: src to specify the path</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.freecodecamp.org/news/react-stripe-payments/"
-                        open
-                      >
-                        <summary class="article-expander__title">How to Accept Payments with React and Stripe</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/react-stripe-payments/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.freecodecamp.org/news/content/images/2022/09/mugshotbot.com_customize_color-blue-image-00471e9c-mode-light-pattern-bank_note-theme-two_up-url-https___freecodecamp.org.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Payments are an essential part of any online business. But the process of setting up those payments can be incredibly complex at times.  To accept payments, developers were traditionally required to set up code both on the client and server. This was in addition to learning complex third-party APIs</span>
+                              <span>简介
+MySQL Performance Schema (PS) 和 SYS Schema 是MySQL官方提供的，可以用来监控性能和诊断故障。
+PS 库主要用来收集数据库运行时的性能数据，通过充分利用PS库的数据，让DBA更了解数据库的运行状态，也有利于定位问题。
+SYS库，是MySQL 从 5.7.7 版本开始提供的。DBA和开发可以使用SYS库进行数据库的性能调优和问题诊断，SYS库除了 sys_config 表，其他都是视图，视图来源于 PS 库和 IS(informantion_schema) 库。也就是说 SYS 库是为了更直观易懂的展示 PS 库和 IS 库。
+PS库
+开启 PS 库
+MYSQL 5.6 之后的版本是默认开启的。如果需要手动开启和关闭，可以在 my.cof 文件中修改相应配置。例如添加以下参数，开启 PS 库：
+[mysqld]performance_schema&#x3D;ON
+在 MySQL 实例中检查是否开启：
+mysql&gt; show variables like &#x27;performance_schema&#x27;;+--------------------+-------+| Variable_name      | Value |+--------------------+-------+| performance_schema | ON    |+--------------------+-------+1 row in set (0.07 sec)
+PS 库的开启或关闭，需要修改配置文件后重启实例生效。如果在线修改 performance_schema 参数的值，会报错：
+mysql&gt; set global performance_schema&#x3D;off;ERROR 1238 (HY000): Variable &#x27;performance_schema&#x27;…</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.freecodecamp.org/news/dictionary-comprehension-in-python-dict-comprehensions-explained/"
-                        open
-                      >
-                        <summary class="article-expander__title">Dictionary Comprehension in Python – Dict Comprehensions Explained</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/dictionary-comprehension-in-python-dict-comprehensions-explained/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.freecodecamp.org/news/content/images/2022/09/element5-digital-OyCl7Y4y0Bk-unsplash.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>You can use Dictionaries [/news/python-add-to-dictionary-adding-an-item-to-a-dict/]in Python to store data in key and value pairs.  And you can use dictionary comprehension to create a new dictionary from an already existing one.  When creating a new dictionary using dictionary comprehension, you can perform various operations using expressions to determine the</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.freecodecamp.org/news/how-to-use-python-to-scrape-app-store-reviews/"
-                        open
-                      >
-                        <summary class="article-expander__title">How to Use Python to Scrape App Store Reviews</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/how-to-use-python-to-scrape-app-store-reviews/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.freecodecamp.org/news/content/images/2022/09/Shittu-Olumide-How-to-use-Python-to-scrape-App-Store-reviews-Freecodecamp.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Data scraping, commonly referred to as web scraping, is a technique for getting data and content from the internet.  You usually keep this information in a local file so that you can change and inspect it as needed.  Web scraping is basically just copying and pasting content from</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.freecodecamp.org/news/edge-cloud-microservices-with-wasmedge-and-rust/"
-                        open
-                      >
-                        <summary class="article-expander__title">Edge Cloud Microservices – How to Build High Performance &amp; Secure Apps with WasmEdge and Rust</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/edge-cloud-microservices-with-wasmedge-and-rust/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.freecodecamp.org/news/content/images/2022/09/richard-r-schunemann-DD3VNthK_Kw-unsplash.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>The edge cloud allows developers to deploy microservices (that is, fine-grained web services) close to their users. This gives them a better user experience (and very fast response times), security, and high availability.  It also leverages local or even private data centers, CDN networks, and telecomm data centers (for</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;8
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.freecodecamp.org/news/white-hat-black-hat-red-hat-hackers/"
-                        open
-                      >
-                        <summary class="article-expander__title">What are White Hat, Black Hat, and Red Hat Hackers? Different Types of Hacking Explained</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/white-hat-black-hat-red-hat-hackers/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.freecodecamp.org/news/content/images/2022/09/hacking-hats.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Welcome to the movies, everyone! 🍿 Have you ever heard the term white hat or black hat hacker, and wondered what it means? Well, in this article, you will learn how hackers are classified by comparing them to a Marvel or DC hero that more or less represents them and</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.freecodecamp.org/news/numbers-and-dates-in-javascript/"
-                        open
-                      >
-                        <summary class="article-expander__title">How to Work with Numbers and Dates in JavaScript</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/numbers-and-dates-in-javascript/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.freecodecamp.org/news/content/images/2022/09/Frame-388--1-.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Numbers, dates, and timers are important parts of JavaScript. And you&#x27;ll need to know how to work with them when writing your code. We often ignore these topics as many articles don&#x27;t discuss them. So here, we&#x27;ll dive deep into the techniques you can use and learn some interesting things</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.freecodecamp.org/news/learn-jenkins-by-building-a-ci-cd-pipeline/"
-                        open
-                      >
-                        <summary class="article-expander__title">Learn Jenkins by Building a CI/CD Pipeline</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/learn-jenkins-by-building-a-ci-cd-pipeline/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.freecodecamp.org/news/content/images/2022/09/jenkins.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Jenkins is an open source automation server which makes it easier to build, test, and deploy software. We just published a video course on the freeCodeCamp.org YouTube channel that will teach you about Jenkins by showing you how to build a CI/CD pipeline for a web application.  Gwendolyn Faraday</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.freecodecamp.org/news/how-to-compare-arrays-in-javascript/"
-                        open
-                      >
-                        <summary class="article-expander__title">Comparing Arrays in JavaScript – How to Compare 2 Arrays in JS</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/how-to-compare-arrays-in-javascript/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.freecodecamp.org/news/content/images/2022/09/cover-template.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>When handling logic with JavaScript, you might need to compare two arrays to see if they are equal or not. Really, this shouldn&#x27;t be difficult, as you&#x27;d think we could easily use either the loose equality (double equals - &#x3D;&#x3D;) or the strict equality (triple equals -  &#x3D;&#x3D;&#x3D;). But</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Articles on Smashing Magazine — For Web Designers And Developers</button>
-                  <a class="source-heading__link" href="https://www.smashingmagazine.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://smashingmagazine.com/2022/09/rethinking-star-ratings-readers/"
-                        open
-                      >
-                        <summary class="article-expander__title">Rethinking Star Ratings For Readers</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://smashingmagazine.com/2022/09/rethinking-star-ratings-readers/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/4c500c4a-f0b4-4348-9136-951d1b38afde/rethinking-star-ratings-readers.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>How can companies change their rating and review systems to better benefit users? Matt Athanasiou shares some steps to improve the experience of reviewing literature and other products — while also building stronger connections.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;16
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -264,8 +80,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-09-15 datetime="2022-09-15T20:11:02.000Z">2022-09-15</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-09-15 datetime="2022-09-15T20:11:02.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-09-08 datetime="2022-09-08T06:14:18.000Z">2022-09-08</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-09-08 datetime="2022-09-08T06:14:18.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -276,224 +92,22 @@
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
-                  >freeCodeCamp.org</button>
-                  <a class="source-heading__link" href="https://www.freecodecamp.org/news/">Open</a>
+                  >m0_50957668的博客</button>
+                  <a class="source-heading__link" href="https://blog.csdn.net/m0_50957668">Open</a>
                 </h3>
                 <section class="articles-per-source">
                     <article>
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.freecodecamp.org/news/what-is-data-science-what-a-data-scientist-actually-does/"
+                        data-accordion-key="https://blog.csdn.net/m0_50957668/article/details/126763408"
                         open
                       >
-                        <summary class="article-expander__title">What is Data Science? What a Data Scientist Actually Does</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/what-is-data-science-what-a-data-scientist-actually-does/">
+                        <summary class="article-expander__title">连接查询中WHERE 和 ON 的区别</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://blog.csdn.net/m0_50957668/article/details/126763408">
                           <div class="article-summary-box-inner media-object">
-                              <img src="https://www.freecodecamp.org/news/content/images/2022/09/pexels-alex-knight-2599244.jpg" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
-                              <span>Data Science is one of the most in-demand and desirable careers of the 21st century. Even though the term was introduced in the early 1960s, its meaning has changed considerably over time. And despite its rise in popularity in recent years, many people outside the field still find the term</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;11
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >CSS-Tricks</button>
-                  <a class="source-heading__link" href="https://css-tricks.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://css-tricks.com/?p&#x3D;373372"
-                        open
-                      >
-                        <summary class="article-expander__title">More Details on &#x60;details&#x60;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://css-tricks.com/more-details-on-details/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://css-tricks.com/wp-json/social-image-generator/v1/image/373372" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>A lot of chatter around the ol’  and  elements lately! I saw Lea Verou recently tweet an observation about the element’s display behavior and that sorta splintered into more observations and usage notes from folks, including a revived …
-More Details on &#x60;details&#x60; originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Articles on Smashing Magazine — For Web Designers And Developers</button>
-                  <a class="source-heading__link" href="https://www.smashingmagazine.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://smashingmagazine.com/2022/09/accessibility-times-headless/"
-                        open
-                      >
-                        <summary class="article-expander__title">Accessibility In Times Of Headless</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://smashingmagazine.com/2022/09/accessibility-times-headless/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/32d09a45-70c2-413d-9028-58773032baab/accessibility-times-headless.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Do you want to make your new website as accessible as possible? Amazing, that’s a great mindset! Let’s have a closer look at the factors you should take into consideration when choosing a content management system (CMS) in terms of web accessibility.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;16
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-09-14 datetime="2022-09-14T13:03:04.000Z">2022-09-14</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-09-14 datetime="2022-09-14T13:03:04.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >CSS-Tricks</button>
-                  <a class="source-heading__link" href="https://css-tricks.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://css-tricks.com/?p&#x3D;373100"
-                        open
-                      >
-                        <summary class="article-expander__title">When is it OK to Disable Text Selection?</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://css-tricks.com/when-is-it-ok-to-disable-text-selection/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://css-tricks.com/wp-json/social-image-generator/v1/image/373100" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Using CSS, it’s possible to prevent users from selecting text within an element using user-select: none. Now, it’s understandable why doing so might be considered “controversial”. I mean, should we be disabling standard user behaviors? Generally speaking, no, we …
-When is it OK to Disable Text Selection? originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;10
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Articles on Smashing Magazine — For Web Designers And Developers</button>
-                  <a class="source-heading__link" href="https://www.smashingmagazine.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://smashingmagazine.com/2022/09/javascript-api-guide/"
-                        open
-                      >
-                        <summary class="article-expander__title">JavaScript APIs You Don’t Know About</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://smashingmagazine.com/2022/09/javascript-api-guide/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/b583db40-b8c0-46c4-9893-5a7ae3d00453/api-page-visibility-web-sharing-broadcast-channel-internationalization.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>In this article, Juan Diego covers the least known yet extremely useful APIs, such as the Page Visibility API, Web Sharing API, Broadcast Channel API and Internationalization API. Together we will see what they are, where we should use them, and how to use them.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;18
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-09-13 datetime="2022-09-13T16:14:13.000Z">2022-09-13</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-09-13 datetime="2022-09-13T16:14:13.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >CSS-Tricks</button>
-                  <a class="source-heading__link" href="https://css-tricks.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://css-tricks.com/?p&#x3D;373367"
-                        open
-                      >
-                        <summary class="article-expander__title">WebKit Features in Safari 16.0</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://css-tricks.com/webkit-features-in-safari-16-0/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://css-tricks.com/wp-json/social-image-generator/v1/image/373367" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Whew boy, Safari 16 is officially out in the wild and it packs in a bunch of features, some new and exciting (Subgrid! Container Queries! Font Palettes!) and others we’ve been waiting on for better cross-browser support (Motion Path! Overscroll …
-WebKit Features in Safari 16.0 originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.</span>
+                              <span>在 SQL 连接查询时关于使用 WHERE 和 JOIN ON 的区别讨论以及社区语法规范推荐</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;4
                                   min&hairsp;)</span>
                             </span>
@@ -501,30 +115,23 @@ WebKit Features in Safari 16.0 originally published on CSS-Tricks, which is part
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://css-tricks.com/?p&#x3D;373081"
-                        open
-                      >
-                        <summary class="article-expander__title">The Basics of Remix</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://css-tricks.com/the-basics-of-remix/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://css-tricks.com/wp-json/social-image-generator/v1/image/373081" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>You’ve probably heard a lot of hype around one of the newest kids on the framework block, Remix. It may be surprising that it got its start back in 2019, but it was originally only available as a subscription-based premium …
-The Basics of Remix originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;9
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-09-02 datetime="2022-09-02T10:25:28.000Z">2022-09-02</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-09-02 datetime="2022-09-02T10:25:28.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -532,24 +139,23 @@ The Basics of Remix originally published on CSS-Tricks, which is part of the Dig
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Articles on Smashing Magazine — For Web Designers And Developers</button>
-                  <a class="source-heading__link" href="https://www.smashingmagazine.com/">Open</a>
+                  >qq_53958979的博客</button>
+                  <a class="source-heading__link" href="https://blog.csdn.net/qq_53958979">Open</a>
                 </h3>
                 <section class="articles-per-source">
                     <article>
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
-                        data-accordion-key="https://smashingmagazine.com/2022/09/wai-aria-guide/"
+                        data-accordion-key="https://blog.csdn.net/qq_53958979/article/details/126668499"
                         open
                       >
-                        <summary class="article-expander__title">Making Sense Of WAI-ARIA: A Comprehensive Guide</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://smashingmagazine.com/2022/09/wai-aria-guide/">
+                        <summary class="article-expander__title">Visual Studio Code使用TDM—gcc编译器配置c/c++环境</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://blog.csdn.net/qq_53958979/article/details/126668499">
                           <div class="article-summary-box-inner media-object">
-                              <img src="http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/b5f0e5d2-bebc-4ea0-bf42-5557f79ab433/wai-aria-guide.jpg" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
-                              <span>In this article, Kate Kalcevich explains when to use ARIA and how to use it properly so that you can use ARIA in a way that’s helpful to the many disabled people who use [assistive technology](https://makeitfable.com/glossary/?utm_source&#x3D;Smashing+Magazine&amp;utm_medium&#x3D;sponsored+content&amp;utm_campaign&#x3D;Upskill&amp;utm_term&#x3D;Fable&amp;utm_content&#x3D;Sept2022) to navigate the Internet. Let’s dive in!</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;17
+                              <span>打开一个文件夹，创建第一个main程序，按下f6或者f8，能够运行就说明配置成功了。安装之后tdm-gcc会自动配置环境变量，不需要手动配置。3.在Vscode中下载对应插件。点击扩展设置进行编译设置。在设置中按照如下设置。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -568,8 +174,8 @@ The Basics of Remix originally published on CSS-Tricks, which is part of the Dig
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-09-12 datetime="2022-09-12T13:05:20.000Z">2022-09-12</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-09-12 datetime="2022-09-12T13:05:20.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-08-25 datetime="2022-08-25T08:41:03.000Z">2022-08-25</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-08-25 datetime="2022-08-25T08:41:03.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -580,60 +186,115 @@ The Basics of Remix originally published on CSS-Tricks, which is part of the Dig
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
-                  >CSS-Tricks</button>
-                  <a class="source-heading__link" href="https://css-tricks.com">Open</a>
+                  >VATE快乐屋</button>
+                  <a class="source-heading__link" href="https://blog.vatebur.cn">Open</a>
                 </h3>
                 <section class="articles-per-source">
                     <article>
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
-                        data-accordion-key="https://css-tricks.com/?p&#x3D;372991"
+                        data-accordion-key="https://blog.vatebur.cn/archives/typoraimgupload"
                         open
                       >
-                        <summary class="article-expander__title">Building Interactive Figma Widgets</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://css-tricks.com/building-interactive-figma-widgets/">
+                        <summary class="article-expander__title">Typora使用千牛云图床快速配置</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://blog.vatebur.cn/archives/typoraimgupload">
                           <div class="article-summary-box-inner media-object">
-                              <img src="https://css-tricks.com/wp-json/social-image-generator/v1/image/372991" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
-                              <span>Figma has always encouraged collaboration between developers and designers. It strives on an endless treasury of community-made plugins. Need 3D elements? There’s a plugin for that. Need abstract SVGs? There’s a plugin for that, too.
-That said, the design part of Figma has …
-Building Interactive Figma Widgets originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;15
+                              <span>注册千牛云
+1.注册千牛云并申请COS存储桶
+注册流程此次省略
+2.注册完成后，在个人中心得到accessKey 和secretKey
+
+3.在相关页面得到 存储桶名称（bucket），域名，地区（area）
+
+得到上述5个信息（ak，sk， 存储桶，域名，地区）后就可以开始设置Typora
+配置Typora
+选择PicGO Core
+点击更新后，再点打开配置文件，填入以下内容
+您也可以选择不下载更新，但是笔者是更新后才能正常使用，所以还是推荐点一下下载更新。
+
+{  &quot;picBed&quot;: {    &quot;uploader&quot;: &quot;qiniu&quot;,    &quot;qiniu&quot;: {      &quot;accessKey&quot;: &quot;&quot;,      &quot;secretKey&quot;: &quot;&quot;,      &quot;bucket&quot;: &quot;&quot;, // 存储空间名      &quot;url&quot;: &quot;&quot;, // 自定义域名（网址）      &quot;area&quot;: &quot;&quot;, // 存储区域编号      &quot;options&quot;: &quot;&quot;, // 网址后缀，空着就好      &quot;path&quot;: &quot;img/&quot; // 自定义存储路径，比如 img/    }  },  &quot;picgoPlugins&quot;: {}}
+
+打开配置文件后发现是空文件，手动填入配置信息
+有几点需要注意以下
+
+网站的域名前需要加上http:// 或者 https://
+存储地区要转换成对应的编号
+
+
+存储区域存储区域编号
+
+华东z0
+华北z1
+华南z2
+北美na0
+东南亚as0
+
+点击验证图片上传选项，提示验证成功就可以了
+
+
+参考链接
+
+Typora + 七牛云图床快速配置，告别手动上传图片！ 小张Python 小张Python</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
                                   min&hairsp;)</span>
                             </span>
                           </div>
                         </a>
                       </details>
                     </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Articles on Smashing Magazine — For Web Designers And Developers</button>
-                  <a class="source-heading__link" href="https://www.smashingmagazine.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
                     <article>
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
-                        data-accordion-key="https://smashingmagazine.com/2022/09/smart-interface-design-checklist-cards-release/"
+                        data-accordion-key="https://blog.vatebur.cn/archives/edugithub"
                         open
                       >
-                        <summary class="article-expander__title">Meet “Smart Interface Design Patterns Checklists” (Deck With 166 Cards)</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://smashingmagazine.com/2022/09/smart-interface-design-checklist-cards-release/">
+                        <summary class="article-expander__title">GitHub学生认证流程</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://blog.vatebur.cn/archives/edugithub">
                           <div class="article-summary-box-inner media-object">
-                              <img src="http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/228ff9a3-0d50-47c4-bf6b-7a1efdcd08f4/smashing-checklist-cards-box.jpg" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
-                              <span>Meet “Smart Interface Design Patterns Checklists”, a deck of 166 checklist cards to help you design and build better interfaces, faster. With accordions, mega-drop-downs, data tables, carousels, and everything in-between.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;13
+                              <span>证件准备
+1.请登录学信网
+https://account.chsi.com.cn/
+2.点击高等教育信息，点击在线验证报告，后面的步骤仅供参考，请自行摸索找到教育部学籍在线验证报告
+
+
+
+然后就的到了这个，怎么保存成pdf或者图片就不用教了吧
+
+然后把这个提交到github就行了，github是外国网站最好还是翻译一下。
+翻译有以下选择：
+1.用浏览器翻译后，手动编辑源码校对
+2.开始ps
+3.用官方的证件翻译服务，费用30块钱，申请流程如下↓
+申请英文翻译件管翻流程
+在这个地方
+
+按流程来就行 交30块钱，很快就能出结果。请注意英文翻译件的查看地址和中文不一样
+请在申请翻译的那个页面下载翻译件
+
+官方翻译文件比较省心，省去了已经翻译的麻烦
+花钱申请学信网官方英文翻译件，不是必须流程，可以使用其他方式免去花钱。
+GitHub申请流程
+1.请尝试裸连 https://education.github.com/ 如果开了代理会导致提交的时候显示地区错误
+GitHub会根据ip判断您是否在学校，所以请裸连。笔者是比较推荐电信的网络，不推荐移动。（南方移动墙中墙）
+2.登入后点击Join Global Campus
+![NWER@T)1QXNCD(WBAV}YQ8](https://oss.vatebur.cn/img/NWER@T)1QXNCD(WBAV}YQ8.png)
+3.在学校这里输入fzgs就会跳出对应的选项了，不知道为什么直接打FuZhou没反应
+
+4.下面的计划，请用你蹩脚的英文随便写一点，笔者写的是study and Communication code 这个尽量直接想一段话吧，就没必要照抄了
+
+4.最关键的上传证件环节，笔者申请了俩天，
+第一天，没有上传照片的按钮，只能用摄像头拍摄。笔者试着拍照上传但是被，秒拒了。
+第二天，有这个上传按钮，笔者上传证件后就直接通过了
+有没有Upload an image 上传图片按钮真的是随缘
+
+5.下面的证件类型就按情况填写吧，笔者也忘了填的是什么了。
+然后点下面的提交就行了，提交后是秒过。
+以上就是教程的全部内容了</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -652,8 +313,8 @@ Building Interactive Figma Widgets originally published on CSS-Tricks, which is 
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-09-09 datetime="2022-09-09T13:21:29.000Z">2022-09-09</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-09-09 datetime="2022-09-09T13:21:29.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-08-22 datetime="2022-08-22T10:11:16.000Z">2022-08-22</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-08-22 datetime="2022-08-22T10:11:16.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -664,242 +325,47 @@ Building Interactive Figma Widgets originally published on CSS-Tricks, which is 
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
-                  >CSS-Tricks</button>
-                  <a class="source-heading__link" href="https://css-tricks.com">Open</a>
+                  >VATE快乐屋</button>
+                  <a class="source-heading__link" href="https://blog.vatebur.cn">Open</a>
                 </h3>
                 <section class="articles-per-source">
                     <article>
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
-                        data-accordion-key="https://css-tricks.com/?p&#x3D;372952"
+                        data-accordion-key="https://blog.vatebur.cn/archives/greatsqlmysql-test"
                         open
                       >
-                        <summary class="article-expander__title">How I Made a Pure CSS Puzzle Game</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://css-tricks.com/how-i-made-a-pure-css-puzzle-game/">
+                        <summary class="article-expander__title">GreatSQL/MySQL数据库练习</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://blog.vatebur.cn/archives/greatsqlmysql-test">
                           <div class="article-summary-box-inner media-object">
-                              <img src="https://css-tricks.com/wp-json/social-image-generator/v1/image/372952" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
-                              <span>I recently discovered the joy of creating CSS-only games. It’s always fascinating how HTML and CSS are capable of handling the logic of an entire online game, so I had to try it! Such games usually rely on the ol’ …
-How I Made a Pure CSS Puzzle Game originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;12
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Articles on Smashing Magazine — For Web Designers And Developers</button>
-                  <a class="source-heading__link" href="https://www.smashingmagazine.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://smashingmagazine.com/2022/09/formula-roi-design-system/"
-                        open
-                      >
-                        <summary class="article-expander__title">One Formula To Rule Them All: The ROI Of A Design System</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://smashingmagazine.com/2022/09/formula-roi-design-system/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/2ee3c9ea-d8c4-494f-bcb1-ed3530dafbab/formula-roi-design-system.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Design systems are a crucial success factor for digital businesses, and virtually every major player works with one. Still, they can sometimes be hard to sell to management. Here’s a ready-to-use formula to calculate the ROI of any design system.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;18
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-09-08 datetime="2022-09-08T13:12:51.000Z">2022-09-08</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-09-08 datetime="2022-09-08T13:12:51.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >CSS-Tricks</button>
-                  <a class="source-heading__link" href="https://css-tricks.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://css-tricks.com/?p&#x3D;372979"
-                        open
-                      >
-                        <summary class="article-expander__title">What’s New With Forms in 2022?</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://css-tricks.com/whats-new-with-forms-in-2022/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://css-tricks.com/wp-json/social-image-generator/v1/image/372979" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Browsers are constantly adding new HTML, JavaScript and CSS features. Here are some useful additions to working with forms that you might have missed…
-requestSubmit()
-Safari 16 will be the final browser to add support for requestSubmit.
-Before we …
-What’s New With Forms in 2022? originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Articles on Smashing Magazine — For Web Designers And Developers</button>
-                  <a class="source-heading__link" href="https://www.smashingmagazine.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://smashingmagazine.com/2022/09/ux-checklists-for-interface-designers/"
-                        open
-                      >
-                        <summary class="article-expander__title">UX Checklists For Interface Designers</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://smashingmagazine.com/2022/09/ux-checklists-for-interface-designers/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/6588f0b2-af1a-4e0a-adb9-45dd2feaffa1/checklist-design.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>UX checklists with best design practices, accessibility guidelines, design system checklist, tables UX checklist, UX research methods, form design UX and flowcharts.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;11
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-09-07 datetime="2022-09-07T13:46:58.000Z">2022-09-07</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-09-07 datetime="2022-09-07T13:46:58.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >CSS-Tricks</button>
-                  <a class="source-heading__link" href="https://css-tricks.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://css-tricks.com/?p&#x3D;372968"
-                        open
-                      >
-                        <summary class="article-expander__title">Overlapping Bar Charts</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://css-tricks.com/overlapping-bar-charts/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://css-tricks.com/wp-json/social-image-generator/v1/image/372968" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>As the name suggests, overlapping charts visualize two different sets of data in a single diagram. The idea is that the overlapping bars allow us to compare data, say, year-over-year. They are also useful for things like tracking progress for …
-Overlapping Bar Charts originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;8
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-09-06 datetime="2022-09-06T19:00:00.000Z">2022-09-06</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-09-06 datetime="2022-09-06T19:00:00.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Articles on Smashing Magazine — For Web Designers And Developers</button>
-                  <a class="source-heading__link" href="https://www.smashingmagazine.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://smashingmagazine.com/2022/09/realities-myths-contrast-color/"
-                        open
-                      >
-                        <summary class="article-expander__title">The Realities And Myths Of Contrast And Color</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://smashingmagazine.com/2022/09/realities-myths-contrast-color/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/a6553770-76d3-4d35-a473-1011999fbb66/realities-myths-contrast-color.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>In this article, Andrew Somers, a 35-year veteran of the Hollywood film and television industry, shares his experience about the hard-fought battles and lessons learned designing for illuminated presentations.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;25
+                              <span>/3. 从MySQL官网下载employees、sakila数据库，导入。
+/4. 创建一个InnoDB表t1，至少包含int、varchar、datetimie等多种类型的数据列，并根据下述要求插入数据。
+4.1 要求：用自增INT作为主键列。
+4.2 对t1表插入一列，放在varchar列的前面。
+4.3 对照t1表的各列类型，采用各自相关类型的函数，生成随机数据（包含中文字符）并写入该表。
+
+下载数据库
+安装sakila
+官方文档
+下载页面
+
+下载，安装
+wget https://downloads.mysql.com/docs/sakila-db.tar.gztar xvf /root/sakila-db.tar.gzrm sakila-db.tar.gz cd sakila-db/ mysql -u root -p&#x27;123456&#x27;source /root/sakila-db/sakila-schema.sql;source /root/sakila-db/sakila-data.sql;
+[root@localhost sakila-db]# lssakila-data.sql  sakila.mwb  sakila-schema.sql
+
+sakila-schema.sql文件包含创建sakila数据库结构所需的所有create语句，包括表、视图、存储过程和触发器。
+sakila-data.sql文件包含填充由sakila-schema.sql文件创建的结构所需的insert语句，以及初始数据加载后必须创建的触发器的定义。
+sakila.mwb文件是一个mysql工作台数据模型，您可以在mysql工作台中打开它来检查数据库结构。
+
+安装Employees
+
+Employees数据库是一个用于学习和测试的数据库，大约160MB，4百万条记录
+
+GitHub仓库
+w…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -910,778 +376,47 @@ Overlapping Bar Charts originally published on CSS-Tricks, which is part of the 
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
-                        data-accordion-key="https://smashingmagazine.com/2022/09/smashing-podcast-episode-52/"
+                        data-accordion-key="https://blog.vatebur.cn/archives/greatsqlmysql"
                         open
                       >
-                        <summary class="article-expander__title">Smashing Podcast Episode 52 With Yiying Lu: How Do You Become An NFT Artist?</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://smashingmagazine.com/2022/09/smashing-podcast-episode-52/">
+                        <summary class="article-expander__title">二进制安装GreatSQL/MySQL</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://blog.vatebur.cn/archives/greatsqlmysql">
                           <div class="article-summary-box-inner media-object">
-                              <img src="http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/639db09c-3948-4a2d-a564-a189c62098b7/smashing-podcast-episode-52.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
-                              <span>In this episode of the Smashing Podcast, we ask how do you go from running a creative studio to designing NFTs. Vitaly talks to artist Yiying Lu to find out.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;34
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >CSS-Tricks</button>
-                  <a class="source-heading__link" href="https://css-tricks.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://css-tricks.com/?p&#x3D;372850"
-                        open
-                      >
-                        <summary class="article-expander__title">Hacking CSS Animation State and Playback Time</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://css-tricks.com/hacking-css-animation-state-and-playback-time/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://css-tricks.com/wp-json/social-image-generator/v1/image/372850" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>CSS-only Wolfenstein is a little project that I made a few weeks ago. It was an experiment with CSS 3D transformations and animations.
-Inspired by the FPS demo and another Wolfenstein CodePen, I decided to build my own version. …
-Hacking CSS Animation State and Playback Time originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;8
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-09-05 datetime="2022-09-05T20:10:24.000Z">2022-09-05</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-09-05 datetime="2022-09-05T20:10:24.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >CSS-Tricks</button>
-                  <a class="source-heading__link" href="https://css-tricks.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://css-tricks.com/?p&#x3D;372853"
-                        open
-                      >
-                        <summary class="article-expander__title">Flutter For Front-End Web Developers</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://css-tricks.com/flutter-for-front-end-web-developers/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://css-tricks.com/wp-json/social-image-generator/v1/image/372853" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>I started as a front-end web developer and then became a Flutter developer. I think there were some concepts that helped me adopt Flutter easier. There were also some new concepts that were different.
-In this article, I want to …
-Flutter For Front-End Web Developers originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;8
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Articles on Smashing Magazine — For Web Designers And Developers</button>
-                  <a class="source-heading__link" href="https://www.smashingmagazine.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://smashingmagazine.com/2022/09/understanding-privacy-pre-release/"
-                        open
-                      >
-                        <summary class="article-expander__title">Meet Understanding Privacy, A New Smashing Book By Heather Burns</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://smashingmagazine.com/2022/09/understanding-privacy-pre-release/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/cff889cf-602a-4685-a43c-e313647cac56/understanding-privacy.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Meet “Understanding Privacy”, our upcoming book on what data privacy is really about beyond scary headlines. Approx. 350 pages. eBook available in October, print shipping in November.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;11
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-09-02 datetime="2022-09-02T10:30:00.000Z">2022-09-02</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-09-02 datetime="2022-09-02T10:30:00.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Articles on Smashing Magazine — For Web Designers And Developers</button>
-                  <a class="source-heading__link" href="https://www.smashingmagazine.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://smashingmagazine.com/2022/09/accessibility-usability-drupal-primary-navigation/"
-                        open
-                      >
-                        <summary class="article-expander__title">The Accessibility And Usability Journey Of Drupal’s Primary Navigation</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://smashingmagazine.com/2022/09/accessibility-usability-drupal-primary-navigation/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/98290a21-bda2-4307-b531-3f6745c5b6b5/accessibility-usability-drupal-primary-navigation.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>In this article, Mike Herchel covers Drupal’s new default theme, Olivero, which is usable, accessible, robust, and beautiful and will help you improve websites’ navigation systems.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;13
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-09-01 datetime="2022-09-01T20:06:56.000Z">2022-09-01</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-09-01 datetime="2022-09-01T20:06:56.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >CSS-Tricks</button>
-                  <a class="source-heading__link" href="https://css-tricks.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://css-tricks.com/?p&#x3D;373126"
-                        open
-                      >
-                        <summary class="article-expander__title">Behind the CSScenes, September 2022</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://css-tricks.com/behind-the-csscenes-sept2022/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://css-tricks.com/wp-json/social-image-generator/v1/image/373126" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Those of you who have been reading CSS-Tricks for a while may remember that we used to publish a little thing we called CSS-Tricks Chronicles. Our friend Chris Coyier would write up a reflection from the past couple of …
-Behind the CSScenes, September 2022 originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;8
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://css-tricks.com/?p&#x3D;372855"
-                        open
-                      >
-                        <summary class="article-expander__title">A Brief Introduction to JAWS, NVDA, and VoiceOver</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://css-tricks.com/comparing-jaws-nvda-and-voiceover/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://css-tricks.com/wp-json/social-image-generator/v1/image/372855" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>A screen reader is an important accessibility tool for people with no or limited vision. People who are blind or those with low vision can use a screen reader to navigate the computer. Screen readers will read contents on the …
-A Brief Introduction to JAWS, NVDA, and VoiceOver originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;13
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://css-tricks.com/?p&#x3D;373087"
-                        open
-                      >
-                        <summary class="article-expander__title">iShadeed’s Container Queries Lab</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://css-tricks.com/ishadeeds-container-queries-lab/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://css-tricks.com/wp-json/social-image-generator/v1/image/373087" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Ahmad Shadeed got an early jump on container queries and has a growing collection of examples based on everyday patterns.
-And, if you missed it, his latest post on container queries does a wonderful job covering how they work since …
-iShadeed’s Container Queries Lab originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.</span>
+                              <span>二进制安装GreatSQL/MySQL
+
+
+在一个全新CentOS环境中，下载GreatSQL二进制包，手动安装，并根据GreatSQL提供的my.cnf模板适当调整后用于考核环境的my.cnf。
+
+完成初始化，并启动实例。
+
+
+安装操作系统
+在一个全新CentOS环境中，下载GreatSQL二进制包，手动安装，并根据GreatSQL提供的my.cnf模板适当调整后用于考核环境的my.cnf。
+安装操作系统：
+
+系统版本
+[root@localhost ~]# uname -aLinux localhost.localdomain 3.10.0-1160.76.1.el7.x86_64 #1 SMP Wed Aug 10 16:21:17 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux[root@localhost ~]#  rpm -q centos-releasecentos-release-7-9.2009.1.el7.centos.x86_64
+配置如下
+
+SSH连接：
+
+ifconfig查看虚拟机的ip地址
+ifconfig
+
+用ssh工具连接
+
+更新阿里源
+
+更改配置文件（很重要）
+备份CentOS 7系统自带yum源配置文件命令：
+mv /etc/yum.repos.d/CentOS-Base.repo /etc/yum.repos.d/CentOS-Base.repo.backup
+
+下载CentOS 7的repo文件
+ wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-7.repo
+
+epo文件是Fedora中yum源（软件仓库）的配置文件，通常一个repo文件定义了一个或者多个软件仓库的细节内容，例如将从哪里下载需…</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Articles on Smashing Magazine — For Web Designers And Developers</button>
-                  <a class="source-heading__link" href="https://www.smashingmagazine.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://smashingmagazine.com/2022/09/databases-frontend-developers-concepts-under-hood/"
-                        open
-                      >
-                        <summary class="article-expander__title">Databases For Front-End Developers: The Concepts Under The Hood (Part 2)</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://smashingmagazine.com/2022/09/databases-frontend-developers-concepts-under-hood/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/7f8fb60e-72db-4053-825a-2cbc819c546b/databases-frontend-developers-concepts-under-hood.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>In the second part of “Databases For Front-End Developers” series, Atila Fassina explores concepts to equip you to have your own opinions about which kinds of databases suit your specific needs.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;14
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://smashingmagazine.com/2022/09/useful-javascript-data-grid-libraries/"
-                        open
-                      >
-                        <summary class="article-expander__title">Useful JavaScript Data Grid Libraries</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://smashingmagazine.com/2022/09/useful-javascript-data-grid-libraries/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/2be5ada6-a971-4249-811f-6c8e32c8e402/useful-javascript-data-grid-libraries.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>In this article, Zara Cooper provides a rundown of some popular data grid libraries that would be a great addition to any data-heavy application and shares recommendations on what factors to consider when choosing a suitable data grid library.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;14
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-08-31 datetime="2022-08-31T08:45:00.000Z">2022-08-31</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-08-31 datetime="2022-08-31T08:45:00.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Articles on Smashing Magazine — For Web Designers And Developers</button>
-                  <a class="source-heading__link" href="https://www.smashingmagazine.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://smashingmagazine.com/2022/08/desktop-wallpaper-calendars-september-2022/"
-                        open
-                      >
-                        <summary class="article-expander__title">Finding The Balance (September 2022 Desktop Wallpapers Edition)</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://smashingmagazine.com/2022/08/desktop-wallpaper-calendars-september-2022/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/6859d441-1ee0-47f9-a3c7-73a1dbc29472/sep-22-cultivating-community-preview-opt.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Let’s welcome September with some fresh desktop wallpapers. Designed by artists and designers from across the globe, they come in versions with and without a calendar for the month. Enjoy!</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;15
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-08-30 datetime="2022-08-30T13:17:25.000Z">2022-08-30</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-08-30 datetime="2022-08-30T13:17:25.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >CSS-Tricks</button>
-                  <a class="source-heading__link" href="https://css-tricks.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://css-tricks.com/?p&#x3D;372839"
-                        open
-                      >
-                        <summary class="article-expander__title">Interpolating Numeric CSS Variables</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://css-tricks.com/interpolating-numeric-css-variables/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://css-tricks.com/wp-json/social-image-generator/v1/image/372839" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>We can make variables in CSS pretty easily:
-:root {
-  --scale: 1;
-}
-And we can declare them on any element:
-.thing {
-  transform: scale(var(--scale));
-}
-Even better for an example like this is applying the variable on a user …
-Interpolating Numeric CSS Variables originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Articles on Smashing Magazine — For Web Designers And Developers</button>
-                  <a class="source-heading__link" href="https://www.smashingmagazine.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://smashingmagazine.com/2022/08/improve-measure-progress-learning-web-design/"
-                        open
-                      >
-                        <summary class="article-expander__title">How To Improve And Measure Your Progress Learning Web Design</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://smashingmagazine.com/2022/08/improve-measure-progress-learning-web-design/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/b8593a84-fd4c-4a38-bb35-9211dcde51d4/improve-measure-progress-learning-web-design.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Ever felt overwhelmed by the number of things you need to learn? Today, we look at how [Uxcel](https://uxcel.com/) eases this transition and approaches actively learning new skills to take our careers to the next level.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;15
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-08-29 datetime="2022-08-29T14:00:00.000Z">2022-08-29</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-08-29 datetime="2022-08-29T14:00:00.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Articles on Smashing Magazine — For Web Designers And Developers</button>
-                  <a class="source-heading__link" href="https://www.smashingmagazine.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://smashingmagazine.com/2022/08/toggle-button-case-study-part-2/"
-                        open
-                      >
-                        <summary class="article-expander__title">What Makes A Great Toggle Button? (Case Study, Part 2)</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://smashingmagazine.com/2022/08/toggle-button-case-study-part-2/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/3d25c3a9-5cbd-44e2-9c8c-742d35c261ee/toggle-button-case-study.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>The problem of how to design an effective toggle button that shows the selected option clearly is a long-term open question among UI/UX designers. In this second part, Eduard Kuric explains a complex list of visual cues used by toggle buttons to communicate which of their options is active.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;20
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-08-26 datetime="2022-08-26T13:44:49.000Z">2022-08-26</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-08-26 datetime="2022-08-26T13:44:49.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >CSS-Tricks</button>
-                  <a class="source-heading__link" href="https://css-tricks.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://css-tricks.com/?p&#x3D;372634"
-                        open
-                      >
-                        <summary class="article-expander__title">Using Grid Named Areas to Visualize (and Reference) Your Layout</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://css-tricks.com/using-grid-named-areas-to-visualize-and-reference-your-layout/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://css-tricks.com/wp-json/social-image-generator/v1/image/372634" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Whenever we build simple or complex layouts using CSS Grid, we’re usually positioning items with line numbers. Grid layouts contain grid lines that are automatically indexed with positive and negative line numbers (that is unless we explicitly name them). …
-Using Grid Named Areas to Visualize (and Reference) Your Layout originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;14
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-08-25 datetime="2022-08-25T15:00:00.000Z">2022-08-25</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-08-25 datetime="2022-08-25T15:00:00.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Articles on Smashing Magazine — For Web Designers And Developers</button>
-                  <a class="source-heading__link" href="https://www.smashingmagazine.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://smashingmagazine.com/2022/08/error-messages-ux-design/"
-                        open
-                      >
-                        <summary class="article-expander__title">Designing Better Error Messages UX</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://smashingmagazine.com/2022/08/error-messages-ux-design/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/93af7c7e-6484-4f47-9e79-fcf6aa24b3ce/better-error-messages-ux.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Error messages need to be easy to spot, but they also need to be helpful. Let’s explore when error messages should live above input fields and why toast error messages are usually not a very good idea.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;20
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://smashingmagazine.com/2022/08/better-video-streaming-with-imgix/"
-                        open
-                      >
-                        <summary class="article-expander__title">Better Video Streaming With imgix</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://smashingmagazine.com/2022/08/better-video-streaming-with-imgix/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/746fe02f-c535-4bb9-bb61-f30467af2a58/better-video-streaming-with-imgix.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>If you need to deliver a large number of images and videos, a solution like [imgix](https://imgix.com/?utm_medium&#x3D;banner&amp;utm_source&#x3D;smashingmag&amp;utm_campaign&#x3D;video-api-smashingmag-article-2022-08) can optimize and process both types of assets without you having to build it from the ground up or cobble together different solutions. Let’s take a closer look at how.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;12
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-08-23 datetime="2022-08-23T12:00:00.000Z">2022-08-23</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-08-23 datetime="2022-08-23T12:00:00.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Articles on Smashing Magazine — For Web Designers And Developers</button>
-                  <a class="source-heading__link" href="https://www.smashingmagazine.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://smashingmagazine.com/2022/08/smashing-podcast-episode-51/"
-                        open
-                      >
-                        <summary class="article-expander__title">Smashing Podcast Episode 51 With Ben Callahan: What’s The Value Of A Design System?</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://smashingmagazine.com/2022/08/smashing-podcast-episode-51/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/743ac53b-8c92-43c0-bf35-5adf4d662417/smashing-podcast-episode-51.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>In this episode of the Smashing Podcast, we ask how you can prove the value of a Design System and how you can pitch it effectively to stakeholders. Vitaly talks to Ben Callahan to find out more.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;34
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-08-22 datetime="2022-08-22T09:30:00.000Z">2022-08-22</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-08-22 datetime="2022-08-22T09:30:00.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Articles on Smashing Magazine — For Web Designers And Developers</button>
-                  <a class="source-heading__link" href="https://www.smashingmagazine.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://smashingmagazine.com/2022/08/toggle-button-case-study-part-1/"
-                        open
-                      >
-                        <summary class="article-expander__title">What Makes A Great Toggle Button? (Case Study, Part 1)</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://smashingmagazine.com/2022/08/toggle-button-case-study-part-1/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/d5921d91-e0fb-4e2c-a79b-6691111f2606/toggle-button-case-study-part-1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>In this first part of a two-part article, Eduard Kuric analyzes the characteristics of effective toggle buttons that make it error-proof and prevent confusion and frustration of users.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;20
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-08-19 datetime="2022-08-19T10:00:00.000Z">2022-08-19</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-08-19 datetime="2022-08-19T10:00:00.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Articles on Smashing Magazine — For Web Designers And Developers</button>
-                  <a class="source-heading__link" href="https://www.smashingmagazine.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://smashingmagazine.com/2022/08/implementing-reset-password-feature-nextjs-dynamic-routes/"
-                        open
-                      >
-                        <summary class="article-expander__title">Implementing A Reset Password Feature With Next.js Dynamic Routes</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://smashingmagazine.com/2022/08/implementing-reset-password-feature-nextjs-dynamic-routes/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/59a0f37a-cd1e-4a3c-abaf-bbf803d81034/implementing-reset-password-feature-nextjs-dynamic-routes-sharing-card.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Most users tend to forget their passwords, so create experiences that will always be valuable for people when they use your products. In this article, we’ll discuss how to implement a password-reset feature with Next.js dynamic routes while prioritizing the UX.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;17
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -1695,8 +430,8 @@ Using Grid Named Areas to Visualize (and Reference) Your Layout originally publi
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/LHyphen/fgssxBlogs/actions/runs/3072667163">
-        <time id="build-timestamp" datetime="2022-09-17T08:15:02.017Z">2022-09-17T08:15:02.017Z</time>
+      <a class="footer-link" href="https://github.com/LHyphen/fgssxBlogs/actions/runs/3072681060">
+        <time id="build-timestamp" datetime="2022-09-17T08:20:36.461Z">2022-09-17T08:20:36.461Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
