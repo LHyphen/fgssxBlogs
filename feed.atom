@@ -2,10 +2,120 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lhyphen.github.io/fgssxBlogs/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-09-17T08:27:25.052Z</updated>
+    <updated>2022-09-17T15:37:36.166Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://lhyphen.github.io/fgssxBlogs/index.html"/>
     <link rel="self" href="https://lhyphen.github.io/fgssxBlogs/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[深入浅出MySQL学习笔记——故障诊断]]></title>
+        <id>https://blog.vatebur.cn/archives/814689127</id>
+        <link href="https://blog.vatebur.cn/archives/814689127"/>
+        <updated>2022-09-17T12:58:29.000Z</updated>
+        <summary type="html"><![CDATA[简介
+一般处理流程
+故障发现
+操作系统指标
+负载
+CPU 使用率
+磁盘空间
+IO 使用率
+SWAP 情况
+
+数据库层面指标
+数据库存活
+连接数
+慢 SQL
+主从延迟
+
+
+故障定位
+检查当前和最近的操作
+操作系统层检查
+数据库层检查
+
+故障解决
+1.慢 SQL
+选择条件上没有索引或者索引效率低。
+有索引,但没有用到索引,或者选择了错误的索引。
+
+2.SQL 执行频率高
+恶意攻击
+缓存失效
+应用实现逻辑不合理
+业务量突增
+
+3.锁冲突
+4.硬件问题
+5.参数配置不合理
+
+
+经典故障案例
+
+
+简介
+MySQL 的故障诊断，需要对整个系统的架构、硬件、软件都有比较深入的了解，由于数据库服务的特点，一旦出现问题，可能影响整个系统的可用性,需要在最短的时间内解决。
+一般处理流程
+按照发现→定位→解决的顺序，对故障处理的一般流程和关键点做一下简单介绍。
+故障发现
+发现依赖于监控，对于数据库服务,一定要构建一套完整的监控系统,在出现问题的时候，能够通过邮件、短信、电话等形式将报警信息发送给DBA和其他相关人员，比故障更可怕的是,出现了故障还没人知道。数据库监控一般应该包括以下几个指标。
+操作系统指标
+负载
+负载是衡量服务器整体压力最直观的指标，代表平均有多少进程在等待被 CPU 调度，可以通过 W 、uptime 、top 等命令来获取。
+[root@GreatSQL ~]# uptime 02:57:29 up 3 days, 15:51,  2 users,  load average: 0.30, 0.08, 0.07
+load average后面的3个数值，分别代表 1 min 平均负载、5 min 平均负载、15 min 平均负载。一般来说，应该保持负载来 0.7 以下，满载的之后意味着系统开始拥塞。
+负载报警的阈值，应该根据系统正常状态下的负载来定。当负载显著升高时，就应该及时…]]></summary>
+        <author>
+            <name>VATE快乐屋</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[C/C++ 编译运行环境配置 - xaoc]]></title>
+        <id>https://www.cnblogs.com/xaoc/p/16703504.html</id>
+        <link href="https://www.cnblogs.com/xaoc/p/16703504.html"/>
+        <updated>2022-09-17T12:30:00.000Z</updated>
+        <summary type="html"><![CDATA[C/C++ 编译运行环境配置 0、概览 主要分为三步 VS Code 与 TDM-GCC 下载 VS Code 与 TDM-GCC 安装 VS Code 必要插件的安装与设置 1、VS Code 与 TDM-GCC 下载 这两者的下载大概率会出现网络问题，基本下载不动 vscode 的解决方法是换用]]></summary>
+        <author>
+            <name>博客园 - xaoc</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[深入浅出MySQL学习笔记之——PS/SYS 数据库]]></title>
+        <id>https://blog.vatebur.cn/archives/7328945</id>
+        <link href="https://blog.vatebur.cn/archives/7328945"/>
+        <updated>2022-09-17T03:29:34.000Z</updated>
+        <summary type="html"><![CDATA[简介
+PS库
+开启 PS 库
+PS 库的表
+
+SYS库
+SYS 库的对象
+SYS对象的实际使用
+主机相关
+InnoDB 相关
+连接数和会话相关
+DB 相关
+SQL 语句相关
+
+
+小节
+
+
+简介
+MySQL Performance Schema (PS) 和 SYS Schema 是MySQL官方提供的，可以用来监控性能和诊断故障。
+PS 库主要用来收集数据库运行时的性能数据，通过充分利用PS库的数据，让DBA更了解数据库的运行状态，也有利于定位问题。
+SYS库，是MySQL 从 5.7.7 版本开始提供的。DBA和开发可以使用SYS库进行数据库的性能调优和问题诊断，SYS库除了 sys_config 表，其他都是视图，视图来源于 PS 库和 IS(informantion_schema) 库。也就是说 SYS 库是为了更直观易懂的展示 PS 库和 IS 库。
+PS库
+开启 PS 库
+MYSQL 5.6 之后的版本是默认开启的。如果需要手动开启和关闭，可以在 my.cof 文件中修改相应配置。例如添加以下参数，开启 PS 库：
+[mysqld]performance_schema=ON
+在 MySQL 实例中检查是否开启：
+mysql> show variables like 'performance_schema';+--------------------+-------+| Variable_name      | Value |+--------------------+-------+| performance_schema | ON    |+--------------------+-------+1 row in set (0.07 sec)
+PS 库的开启或关闭，需要修改配置文件后重启实例生效。如果在线修改 performance_schema 参数的值，会…]]></summary>
+        <author>
+            <name>VATE快乐屋</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[深入浅出MySQL学习笔记之——PS/SYS 数据库]]></title>
         <id>https://blog.vatebur.cn/archives/shen-ru-qian-chu-mysql-xue-xi-bi-ji-zhi-pssys-shu-ju-ku</id>
