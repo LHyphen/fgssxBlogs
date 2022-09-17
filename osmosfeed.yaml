@@ -9,3 +9,7 @@ sources:
   - href: https://blog.vatebur.cn/atom.xml
   - href: https://blog.csdn.net/qq_53958979/rss/list
   - href: https://blog.csdn.net/m0_50957668/rss/list
+
+timezone: Asia/Shanghai
+
+cacheMaxDays: 1000
