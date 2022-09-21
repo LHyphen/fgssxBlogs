@@ -103,6 +103,16 @@
       "siteUrl": "https://blog.vatebur.cn",
       "articles": [
         {
+          "id": "https://blog.vatebur.cn/archives/31234421",
+          "author": null,
+          "description": "范式概念是库恩范式理论的核心，而范式从本质上讲是一种理论体系。库恩指出：“按既定的用法，范式就是一种公认的模型或模式。",
+          "link": "https://blog.vatebur.cn/archives/31234421",
+          "publishedOn": "2022-09-17T15:43:13.000Z",
+          "wordCount": 513,
+          "title": "范式基本概念",
+          "imageUrl": null
+        },
+        {
           "id": "https://blog.vatebur.cn/archives/fan-shi-ji-ben-gai-nian",
           "author": null,
           "description": "超键、候选键、主键\n超键\n超键(super key)：在关系中能唯一标识元组的属性集称为关系模式的超键\n由超键的定义可知，在学生表中含有学号或者身份证号的任意组合都可以唯一标识一个学生，那么它们就是此表的超键。如：（学号）、（身份证号）、（学号，姓名）、（身份证号，性别）等。\n候选键\n候选键(candidate key)：不含有多余属性的超键称为候选键。也就是关系中的一个属性组，其值能唯一标识一个元组。若从属性组中去掉任何一个属性，它就不具有这一性质了，这样的属性组称作候选键。\n候选键属于超键，它是最小的超键，就是说如果再去掉候选键中的任何一个属性它就不再是超键了。对于（学号、姓名）来说，去掉姓名后仍是一个超键，那么它就不是候选键。其中，学生表中的候选键为：（学号）、（身份证号），主属性就是学号、身份证号。\n主属性：任何一个候选键中的属性称作主属性。（请记住这个概念）\n主键\n主键(primary key)：用户从一个关系的多个候选键中，选定一个作为主键。\n主键就是候选键里面的一个，用户可以选择，那么在这里我们选择（学号）作为学生表的主键。\n第一范式、第二范式、第三范式、BCNF范式\n1NF\n定义：关系中每一分量不可再分。即不能以集合、序列等作为属性。（也就是不能表中套表，要保证数据的原子性。）\n2NF\n定义：在1NF基础上，消除非主属性对键的部分依赖，则称它符合2NF。\n3NF\n定义：在2NF基础上，消除非主属性对键的传递依赖，则称它符合3NF。\nBCNF范式\n是要在 3NF 的基础上消除主属性对于码的部分与传递函数依赖。",
@@ -143,6 +153,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://blog.vatebur.cn/archives/52432133",
+          "author": null,
+          "description": "在不下载PicGo的情况下，让Typora使用七牛云图床。",
+          "link": "https://blog.vatebur.cn/archives/52432133",
+          "publishedOn": "2022-08-25T08:41:03.000Z",
+          "wordCount": 563,
+          "title": "Typora使用千牛云图床快速配置",
+          "imageUrl": null
+        },
+        {
           "id": "https://blog.vatebur.cn/archives/typoraimgupload",
           "author": null,
           "description": "注册千牛云\n1.注册千牛云并申请COS存储桶\n注册流程此次省略\n2.注册完成后，在个人中心得到accessKey 和secretKey\n\n3.在相关页面得到 存储桶名称（bucket），域名，地区（area）\n\n得到上述5个信息（ak，sk， 存储桶，域名，地区）后就可以开始设置Typora\n配置Typora\n选择PicGO Core\n点击更新后，再点打开配置文件，填入以下内容\n您也可以选择不下载更新，但是笔者是更新后才能正常使用，所以还是推荐点一下下载更新。\n\n{  \"picBed\": {    \"uploader\": \"qiniu\",    \"qiniu\": {      \"accessKey\": \"\",      \"secretKey\": \"\",      \"bucket\": \"\", // 存储空间名      \"url\": \"\", // 自定义域名（网址）      \"area\": \"\", // 存储区域编号      \"options\": \"\", // 网址后缀，空着就好      \"path\": \"img/\" // 自定义存储路径，比如 img/    }  },  \"picgoPlugins\": {}}\n\n打开配置文件后发现是空文件，手动填入配置信息\n有几点需要注意以下\n\n网站的域名前需要加上http:// 或者 https://\n存储地区要转换成对应的编号\n\n\n存储区域存储区域编号\n\n华东z0\n华北z1\n华南z2\n北美na0\n东南亚as0\n\n点击验证图片上传选项，提示验证成功就可以了\n\n\n参考链接\n\nTypora + 七牛云图床快速配置，告别手动上传图片！ 小张Python 小张Python",
@@ -150,6 +170,16 @@
           "publishedOn": "2022-08-25T08:41:03.000Z",
           "wordCount": 565,
           "title": "Typora使用千牛云图床快速配置",
+          "imageUrl": null
+        },
+        {
+          "id": "https://blog.vatebur.cn/archives/52432134",
+          "author": null,
+          "description": "GitHub申请教育认证",
+          "link": "https://blog.vatebur.cn/archives/52432134",
+          "publishedOn": "2022-08-25T08:04:26.000Z",
+          "wordCount": 529,
+          "title": "GitHub学生认证流程",
           "imageUrl": null
         },
         {

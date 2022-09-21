@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lhyphen.github.io/fgssxBlogs/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-09-21T01:58:40.819Z</updated>
+    <updated>2022-09-21T04:24:53.658Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://lhyphen.github.io/fgssxBlogs/index.html"/>
     <link rel="self" href="https://lhyphen.github.io/fgssxBlogs/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[范式基本概念]]></title>
+        <id>https://blog.vatebur.cn/archives/31234421</id>
+        <link href="https://blog.vatebur.cn/archives/31234421"/>
+        <updated>2022-09-17T15:43:13.000Z</updated>
+        <summary type="html"><![CDATA[范式概念是库恩范式理论的核心，而范式从本质上讲是一种理论体系。库恩指出：“按既定的用法，范式就是一种公认的模型或模式。]]></summary>
+        <author>
+            <name>VATE快乐屋</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[范式基本概念]]></title>
         <id>https://blog.vatebur.cn/archives/fan-shi-ji-ben-gai-nian</id>
@@ -188,6 +198,16 @@ mysql> set global performance_schema=off;ERROR 1238 (HY000): Variable 'performan
     </entry>
     <entry>
         <title type="html"><![CDATA[Typora使用千牛云图床快速配置]]></title>
+        <id>https://blog.vatebur.cn/archives/52432133</id>
+        <link href="https://blog.vatebur.cn/archives/52432133"/>
+        <updated>2022-08-25T08:41:03.000Z</updated>
+        <summary type="html"><![CDATA[在不下载PicGo的情况下，让Typora使用七牛云图床。]]></summary>
+        <author>
+            <name>VATE快乐屋</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Typora使用千牛云图床快速配置]]></title>
         <id>https://blog.vatebur.cn/archives/typoraimgupload</id>
         <link href="https://blog.vatebur.cn/archives/typoraimgupload"/>
         <updated>2022-08-25T08:41:03.000Z</updated>
@@ -227,6 +247,16 @@ mysql> set global performance_schema=off;ERROR 1238 (HY000): Variable 'performan
 参考链接
 
 Typora + 七牛云图床快速配置，告别手动上传图片！ 小张Python 小张Python]]></summary>
+        <author>
+            <name>VATE快乐屋</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub学生认证流程]]></title>
+        <id>https://blog.vatebur.cn/archives/52432134</id>
+        <link href="https://blog.vatebur.cn/archives/52432134"/>
+        <updated>2022-08-25T08:04:26.000Z</updated>
+        <summary type="html"><![CDATA[GitHub申请教育认证]]></summary>
         <author>
             <name>VATE快乐屋</name>
         </author>
