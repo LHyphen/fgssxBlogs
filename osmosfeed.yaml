@@ -3,7 +3,7 @@
 # https://github.com/osmoscraft/osmosfeed/blob/master/docs/osmosfeed-yaml-reference.md
 #########################
 
-cacheUrl: https://lhyphen.github.io/fgssxBlogs/cache.json
+# cacheUrl: https://lhyphen.github.io/fgssxBlogs/cache.json
 sources:
   - href: https://feed.cnblogs.com/blog/u/430405/rss/
   - href: https://blog.vatebur.cn/atom.xml
