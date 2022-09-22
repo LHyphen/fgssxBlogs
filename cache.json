@@ -6,6 +6,16 @@
       "siteUrl": null,
       "articles": [
         {
+          "id": "https://www.cnblogs.com/xaoc/p/16720989.html",
+          "author": null,
+          "description": "快捷键 Search Everywhere : 双击 Shift | 快捷键 | 说明 | | | | | ctrl + P | 列出参数列表（使用比较多 ） | | ctrl + shift + enter | 当在括号里输入完最后一个参数时候他会直接光标跳到最后并且添加分号，不需要自己按向左键移",
+          "link": "https://www.cnblogs.com/xaoc/p/16720989.html",
+          "publishedOn": "2022-09-22T13:46:00.000Z",
+          "wordCount": 382,
+          "title": "IDEA 使用笔记 - xaoc",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.cnblogs.com/xaoc/p/16703504.html",
           "author": null,
           "description": "C/C++ 编译运行环境配置 视频演示：https://www.bilibili.com/video/BV1m24y1d7ku/ 0、概览 主要分为三步 VS Code 与 TDM-GCC 下载 VS Code 与 TDM-GCC 安装 VS Code 必要插件的安装与设置 1、VS Code 与",
