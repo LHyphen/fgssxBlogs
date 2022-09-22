@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://lhyphen.github.io/fgssxBlogs/index.html</id>
+    <id>urn:2022-09-22T14:03:51.671Z</id>
     <title>osmos::feed</title>
-    <updated>2022-09-22T14:00:37.219Z</updated>
+    <updated>2022-09-22T14:03:51.671Z</updated>
     <generator>osmosfeed 1.15.1</generator>
-    <link rel="alternate" href="https://lhyphen.github.io/fgssxBlogs/index.html"/>
-    <link rel="self" href="https://lhyphen.github.io/fgssxBlogs/feed.atom"/>
+    <link rel="alternate" href="index.html"/>
     <entry>
         <title type="html"><![CDATA[IDEA 使用笔记 - xaoc]]></title>
         <id>https://www.cnblogs.com/xaoc/p/16720989.html</id>
         <link href="https://www.cnblogs.com/xaoc/p/16720989.html"/>
         <updated>2022-09-22T13:46:00.000Z</updated>
-        <summary type="html"><![CDATA[快捷键 Search Everywhere : 双击 Shift | 快捷键 | 说明 | | | | | ctrl + P | 列出参数列表（使用比较多 ） | | ctrl + shift + enter | 当在括号里输入完最后一个参数时候他会直接光标跳到最后并且添加分号，不需要自己按向左键移]]></summary>
+        <summary type="html"><![CDATA[快捷键
+配置国际化时没有 resource bundle
+编码设置
+Tomcat 在 idea 中的 Localhost 与 Catalina 乱码
+注释缩进]]></summary>
         <author>
             <name>博客园 - xaoc</name>
         </author>
