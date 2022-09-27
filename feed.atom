@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-09-26T02:29:37.457Z</id>
+    <id>urn:2022-09-27T02:20:56.043Z</id>
     <title>osmos::feed</title>
-    <updated>2022-09-26T02:29:37.457Z</updated>
+    <updated>2022-09-27T02:20:56.043Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[typora 使用 picgo 配置 smms 图床 - xaoc]]></title>
+        <id>https://www.cnblogs.com/xaoc/p/16730228.html</id>
+        <link href="https://www.cnblogs.com/xaoc/p/16730228.html"/>
+        <updated>2022-09-26T03:13:00.000Z</updated>
+        <summary type="html"><![CDATA[0、准备 预先注册好 sm.ms，安装好 nodejs，（git 可选） 1、正文 smms 图床的原域名不能直接访问，得换到备用域名 smms.app，这个功能 picgo 的 [ v1.5.0-alpha.9] 版本前后才有， npm 方式安装的版本还没到最新版，所以得手动安装 picgo gi]]></summary>
+        <author>
+            <name>博客园 - xaoc</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[IDEA 使用笔记 - xaoc]]></title>
         <id>https://www.cnblogs.com/xaoc/p/16720989.html</id>
