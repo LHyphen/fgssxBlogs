@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-09-30T02:45:37.828Z</id>
+    <id>urn:2022-09-30T03:58:08.319Z</id>
     <title>osmos::feed</title>
-    <updated>2022-09-30T02:45:37.828Z</updated>
+    <updated>2022-09-30T03:58:08.319Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -149,6 +149,16 @@ Tomcat 在 idea 中的 Localhost 与 Catalina 乱码
 摆了几天没做这玩意，希望还来得及]]></summary>
         <author>
             <name>m0_50957668</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[你好，欢迎来到我的小屋，我叫明空。]]></title>
+        <id>https://www.minempty.site/index.php/archives/1/</id>
+        <link href="https://www.minempty.site/index.php/archives/1/"/>
+        <updated>2022-05-05T11:50:00.000Z</updated>
+        <summary type="html"><![CDATA[这里是阿尔法色色的小屋，一个让心灵休憩的地方。]]></summary>
+        <author>
+            <name>明空Minempty</name>
         </author>
     </entry>
     <entry>

@@ -128,7 +128,7 @@
           "description": "打开一个文件夹，创建第一个main程序，按下f6或者f8，能够运行就说明配置成功了。安装之后tdm-gcc会自动配置环境变量，不需要手动配置。3.在Vscode中下载对应插件。点击扩展设置进行编译设置。在设置中按照如下设置。",
           "link": "https://blog.csdn.net/qq_53958979/article/details/126668499",
           "publishedOn": "2022-09-02T10:25:28.000Z",
-          "wordCount": 1216,
+          "wordCount": 1209,
           "title": "Visual Studio Code使用TDM—gcc编译器配置c/c++环境",
           "imageUrl": null
         },
@@ -168,7 +168,7 @@
           "description": "对于网络编程中JSON解析数据的一些看法",
           "link": "https://blog.csdn.net/qq_53958979/article/details/125086028",
           "publishedOn": "2022-06-01T08:54:19.000Z",
-          "wordCount": 1195,
+          "wordCount": 1200,
           "title": "Android JSON数据解析",
           "imageUrl": null
         },
@@ -275,7 +275,7 @@
           "description": "仅供班级复习，无含金量\n摆了几天没做这玩意，希望还来得及",
           "link": "https://blog.csdn.net/m0_50957668/article/details/125030969",
           "publishedOn": "2022-05-29T06:53:51.000Z",
-          "wordCount": 2158,
+          "wordCount": 2163,
           "title": "2022数据库期末考简答题知识点整理",
           "imageUrl": null
         },
@@ -297,6 +297,23 @@
           "publishedOn": "2021-11-29T01:56:46.000Z",
           "wordCount": 1524,
           "title": "如何正确使用remove(Object o)删除ArrayList中的自定义对象(如何从ArrayList中删除特定的对象？)",
+          "imageUrl": null
+        }
+      ]
+    },
+    {
+      "title": "阿尔法色色之屋",
+      "feedUrl": "https://www.minempty.site/index.php/feed/",
+      "siteUrl": "https://www.minempty.site/",
+      "articles": [
+        {
+          "id": "https://www.minempty.site/index.php/archives/1/",
+          "author": "明空Minempty",
+          "description": "这里是阿尔法色色的小屋，一个让心灵休憩的地方。",
+          "link": "https://www.minempty.site/index.php/archives/1/",
+          "publishedOn": "2022-05-05T11:50:00.000Z",
+          "wordCount": 864,
+          "title": "你好，欢迎来到我的小屋，我叫明空。",
           "imageUrl": null
         }
       ]
