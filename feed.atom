@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-09-30T03:58:08.319Z</id>
+    <id>urn:2022-10-01T02:41:46.603Z</id>
     <title>osmos::feed</title>
-    <updated>2022-09-30T03:58:08.319Z</updated>
+    <updated>2022-10-01T02:41:46.603Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[2022.09.29 梦「空荡的百货市场」]]></title>
+        <id>https://www.minempty.site/index.php/archives/16/</id>
+        <link href="https://www.minempty.site/index.php/archives/16/"/>
+        <updated>2022-09-30T16:14:00.000Z</updated>
+        <summary type="html"><![CDATA[回过神来，发现自己正伫立着。伫立着。我正伫立在，某栋综合楼，本来不存在的，通往四楼的阶梯中央。阶梯被设计在了楼外，像是两个独立的个体贴合在一起。阶梯本身的宽度就足以并排站着8个人，加上足够缓和的...]]></summary>
+        <author>
+            <name>明空Minempty</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[typora 使用 picgo 配置 smms 图床 - xaoc]]></title>
         <id>https://www.cnblogs.com/xaoc/p/16730228.html</id>
@@ -30,6 +40,26 @@ Tomcat 在 idea 中的 Localhost 与 Catalina 乱码
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[范式基本概念]]></title>
+        <id>https://blog.vatebur.cn/archives/31234421</id>
+        <link href="https://blog.vatebur.cn/archives/31234421"/>
+        <updated>2022-09-17T15:43:13.000Z</updated>
+        <summary type="html"><![CDATA[范式概念是库恩范式理论的核心，而范式从本质上讲是一种理论体系。库恩指出：“按既定的用法，范式就是一种公认的模型或模式。]]></summary>
+        <author>
+            <name>VATE快乐屋</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[深入浅出MySQL学习笔记——故障诊断]]></title>
+        <id>https://blog.vatebur.cn/archives/814689127</id>
+        <link href="https://blog.vatebur.cn/archives/814689127"/>
+        <updated>2022-09-17T12:58:29.000Z</updated>
+        <summary type="html"><![CDATA[MySQL 的故障诊断，需要对整个系统的架构、硬件、软件都有比较深入的了解，由于数据库服务的特点，一旦出现问题，可能影响整个系统的可用性,需要在最短的时间内解决。]]></summary>
+        <author>
+            <name>VATE快乐屋</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[C/C++ 编译运行环境配置 - xaoc]]></title>
         <id>https://www.cnblogs.com/xaoc/p/16703504.html</id>
         <link href="https://www.cnblogs.com/xaoc/p/16703504.html"/>
@@ -37,6 +67,16 @@ Tomcat 在 idea 中的 Localhost 与 Catalina 乱码
         <summary type="html"><![CDATA[C/C++ 编译运行环境配置 视频演示：https://www.bilibili.com/video/BV1m24y1d7ku/ 0、概览 主要分为三步 VS Code 与 TDM-GCC 下载 VS Code 与 TDM-GCC 安装 VS Code 必要插件的安装与设置 1、VS Code 与]]></summary>
         <author>
             <name>博客园 - xaoc</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[深入浅出MySQL学习笔记之——PS/SYS 数据库]]></title>
+        <id>https://blog.vatebur.cn/archives/7328945</id>
+        <link href="https://blog.vatebur.cn/archives/7328945"/>
+        <updated>2022-09-17T03:29:34.000Z</updated>
+        <summary type="html"><![CDATA[MySQL Performance Schema (PS) 和 SYS Schema 是MySQL官方提供的，可以用来监控性能和诊断故障。]]></summary>
+        <author>
+            <name>VATE快乐屋</name>
         </author>
     </entry>
     <entry>
@@ -60,6 +100,46 @@ Tomcat 在 idea 中的 Localhost 与 Catalina 乱码
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Typora使用千牛云图床快速配置]]></title>
+        <id>https://blog.vatebur.cn/archives/52432133</id>
+        <link href="https://blog.vatebur.cn/archives/52432133"/>
+        <updated>2022-08-25T08:41:03.000Z</updated>
+        <summary type="html"><![CDATA[在不下载PicGo的情况下，让Typora使用七牛云图床。]]></summary>
+        <author>
+            <name>VATE快乐屋</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub学生认证流程]]></title>
+        <id>https://blog.vatebur.cn/archives/52432134</id>
+        <link href="https://blog.vatebur.cn/archives/52432134"/>
+        <updated>2022-08-25T08:04:26.000Z</updated>
+        <summary type="html"><![CDATA[GitHub申请教育认证]]></summary>
+        <author>
+            <name>VATE快乐屋</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GreatSQL/MySQL数据库练习]]></title>
+        <id>https://blog.vatebur.cn/archives/greatsqlmysql-test</id>
+        <link href="https://blog.vatebur.cn/archives/greatsqlmysql-test"/>
+        <updated>2022-08-22T10:11:16.000Z</updated>
+        <summary type="html"><![CDATA[GreatSQL/MySQL数据库练习]]></summary>
+        <author>
+            <name>VATE快乐屋</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[二进制安装GreatSQL/MySQL]]></title>
+        <id>https://blog.vatebur.cn/archives/greatsqlmysql</id>
+        <link href="https://blog.vatebur.cn/archives/greatsqlmysql"/>
+        <updated>2022-08-22T09:35:53.000Z</updated>
+        <summary type="html"><![CDATA[在CentOS中二进制安装GreatSQL/MySQL]]></summary>
+        <author>
+            <name>VATE快乐屋</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[在linux系统下搭建鸿蒙bearPi的编译环境]]></title>
         <id>https://blog.csdn.net/qq_53958979/article/details/126310706</id>
         <link href="https://blog.csdn.net/qq_53958979/article/details/126310706"/>
@@ -78,6 +158,26 @@ Tomcat 在 idea 中的 Localhost 与 Catalina 乱码
 把自己搜到和尝试出来的东西做个总结以供参考，侵删]]></summary>
         <author>
             <name>m0_50957668</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[docker]搭建个人浏览器导航页（heimdall）]]></title>
+        <id>https://blog.vatebur.cn/archives/docker%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B</id>
+        <link href="https://blog.vatebur.cn/archives/docker%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B"/>
+        <updated>2022-07-15T08:50:29.000Z</updated>
+        <summary type="html"><![CDATA[用docker搭建个人浏览器导航页&docker基本使用教程]]></summary>
+        <author>
+            <name>VATE快乐屋</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[HTML代码整理]]></title>
+        <id>https://blog.vatebur.cn/archives/html%E4%BB%A3%E7%A0%81%E6%95%B4%E7%90%86</id>
+        <link href="https://blog.vatebur.cn/archives/html%E4%BB%A3%E7%A0%81%E6%95%B4%E7%90%86"/>
+        <updated>2022-07-13T16:49:27.000Z</updated>
+        <summary type="html"><![CDATA[301重定向html文件，时钟转盘]]></summary>
+        <author>
+            <name>VATE快乐屋</name>
         </author>
     </entry>
     <entry>
@@ -152,6 +252,36 @@ Tomcat 在 idea 中的 Localhost 与 Catalina 乱码
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[群晖docker部署带web容器的端口配置(俩种方法）]]></title>
+        <id>https://blog.vatebur.cn/archives/%E7%BE%A4%E6%99%96docker%E9%83%A8%E7%BD%B2%E5%B8%A6web%E5%AE%B9%E5%99%A8%E7%9A%84%E7%AB%AF%E5%8F%A3%E9%85%8D%E7%BD%AE%E4%BF%A9%E7%A7%8D%E6%96%B9%E6%B3%95</id>
+        <link href="https://blog.vatebur.cn/archives/%E7%BE%A4%E6%99%96docker%E9%83%A8%E7%BD%B2%E5%B8%A6web%E5%AE%B9%E5%99%A8%E7%9A%84%E7%AB%AF%E5%8F%A3%E9%85%8D%E7%BD%AE%E4%BF%A9%E7%A7%8D%E6%96%B9%E6%B3%95"/>
+        <updated>2022-05-13T12:54:25.000Z</updated>
+        <summary type="html"><![CDATA[群晖docker部署带web容器的端口配置方法]]></summary>
+        <author>
+            <name>VATE快乐屋</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[halo输入QQ号获取QQ头像和名称]]></title>
+        <id>https://blog.vatebur.cn/archives/halo-qqlogo</id>
+        <link href="https://blog.vatebur.cn/archives/halo-qqlogo"/>
+        <updated>2022-05-12T08:25:55.000Z</updated>
+        <summary type="html"><![CDATA[修改halo评论模块]]></summary>
+        <author>
+            <name>VATE快乐屋</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[群晖docker搭建halo个人博客]]></title>
+        <id>https://blog.vatebur.cn/archives/%E7%BE%A4%E6%99%96docker%E6%90%AD%E5%BB%BAhalo%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2</id>
+        <link href="https://blog.vatebur.cn/archives/%E7%BE%A4%E6%99%96docker%E6%90%AD%E5%BB%BAhalo%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2"/>
+        <updated>2022-05-12T03:43:42.000Z</updated>
+        <summary type="html"><![CDATA[用群晖docker可视化搭建halo个人博客]]></summary>
+        <author>
+            <name>VATE快乐屋</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[你好，欢迎来到我的小屋，我叫明空。]]></title>
         <id>https://www.minempty.site/index.php/archives/1/</id>
         <link href="https://www.minempty.site/index.php/archives/1/"/>
@@ -162,6 +292,46 @@ Tomcat 在 idea 中的 Localhost 与 Catalina 乱码
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[安卓第五周作业]]></title>
+        <id>https://blog.vatebur.cn/archives/%E5%AE%89%E5%8D%93%E7%AC%AC%E4%BA%94%E5%91%A8%E4%BD%9C%E4%B8%9Amd</id>
+        <link href="https://blog.vatebur.cn/archives/%E5%AE%89%E5%8D%93%E7%AC%AC%E4%BA%94%E5%91%A8%E4%BD%9C%E4%B8%9Amd"/>
+        <updated>2022-03-24T00:08:20.000Z</updated>
+        <summary type="html"><![CDATA[安卓作业留档]]></summary>
+        <author>
+            <name>VATE快乐屋</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[第三周安卓作业，Toast的使用]]></title>
+        <id>https://blog.vatebur.cn/archives/%E7%AC%AC%E4%B8%89%E5%91%A8%E5%AE%89%E5%8D%93%E4%BD%9C%E4%B8%9Atoast%E7%9A%84%E4%BD%BF%E7%94%A8</id>
+        <link href="https://blog.vatebur.cn/archives/%E7%AC%AC%E4%B8%89%E5%91%A8%E5%AE%89%E5%8D%93%E4%BD%9C%E4%B8%9Atoast%E7%9A%84%E4%BD%BF%E7%94%A8"/>
+        <updated>2022-03-10T23:07:58.000Z</updated>
+        <summary type="html"><![CDATA[安卓作业留档]]></summary>
+        <author>
+            <name>VATE快乐屋</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[第二周安卓作业 可视化编程写一个登录注册界面]]></title>
+        <id>https://blog.vatebur.cn/archives/%E7%AC%AC%E4%BA%8C%E5%91%A8%E5%AE%89%E5%8D%93%E4%BD%9C%E4%B8%9A%E5%8F%AF%E8%A7%86%E5%8C%96%E7%BC%96%E7%A8%8B%E5%86%99%E4%B8%80%E4%B8%AA%E7%99%BB%E5%BD%95%E6%B3%A8%E5%86%8C%E7%95%8C%E9%9D%A2</id>
+        <link href="https://blog.vatebur.cn/archives/%E7%AC%AC%E4%BA%8C%E5%91%A8%E5%AE%89%E5%8D%93%E4%BD%9C%E4%B8%9A%E5%8F%AF%E8%A7%86%E5%8C%96%E7%BC%96%E7%A8%8B%E5%86%99%E4%B8%80%E4%B8%AA%E7%99%BB%E5%BD%95%E6%B3%A8%E5%86%8C%E7%95%8C%E9%9D%A2"/>
+        <updated>2022-03-01T23:08:32.000Z</updated>
+        <summary type="html"><![CDATA[安卓作业留档，一个登录注册界面]]></summary>
+        <author>
+            <name>VATE快乐屋</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[35张图开始Android Studio第一个项目]]></title>
+        <id>https://blog.vatebur.cn/archives/35%E5%BC%A0%E5%9B%BE%E5%BC%80%E5%A7%8Bandroidstudio%E7%AC%AC%E4%B8%80%E4%B8%AA%E9%A1%B9%E7%9B%AE</id>
+        <link href="https://blog.vatebur.cn/archives/35%E5%BC%A0%E5%9B%BE%E5%BC%80%E5%A7%8Bandroidstudio%E7%AC%AC%E4%B8%80%E4%B8%AA%E9%A1%B9%E7%9B%AE"/>
+        <updated>2022-02-22T08:08:13.000Z</updated>
+        <summary type="html"><![CDATA[安卓留档，创建Android Studio项目]]></summary>
+        <author>
+            <name>VATE快乐屋</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[c++中基类的析构函数为什么要写成虚函数]]></title>
         <id>https://blog.csdn.net/qq_53958979/article/details/122776094</id>
         <link href="https://blog.csdn.net/qq_53958979/article/details/122776094"/>
@@ -169,6 +339,26 @@ Tomcat 在 idea 中的 Localhost 与 Catalina 乱码
         <summary type="html"><![CDATA[今天碰到的问题，当作笔记记下来了]]></summary>
         <author>
             <name>qq_53958979</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【定期总结】Linux常用指令]]></title>
+        <id>https://blog.vatebur.cn/archives/%E5%AE%9A%E6%9C%9F%E6%80%BB%E7%BB%93linux%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4</id>
+        <link href="https://blog.vatebur.cn/archives/%E5%AE%9A%E6%9C%9F%E6%80%BB%E7%BB%93linux%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4"/>
+        <updated>2022-01-15T23:07:05.000Z</updated>
+        <summary type="html"><![CDATA[【定期总结】Linux常用指令入门使用]]></summary>
+        <author>
+            <name>VATE快乐屋</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux 二进制编译安装 Python]]></title>
+        <id>https://blog.vatebur.cn/archives/linux%E5%AE%89%E8%A3%85python</id>
+        <link href="https://blog.vatebur.cn/archives/linux%E5%AE%89%E8%A3%85python"/>
+        <updated>2021-12-29T23:06:41.000Z</updated>
+        <summary type="html"><![CDATA[Linux 二进制编译安装 Python]]></summary>
+        <author>
+            <name>VATE快乐屋</name>
         </author>
     </entry>
     <entry>
@@ -213,6 +403,16 @@ Tomcat 在 idea 中的 Localhost 与 Catalina 乱码
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[eclipse WEB项目导入idea左侧project不见]]></title>
+        <id>https://blog.vatebur.cn/archives/eclipseweb%E9%A1%B9%E7%9B%AE%E5%AF%BC%E5%85%A5idea%E5%B7%A6%E4%BE%A7project%E4%B8%8D%E8%A7%81</id>
+        <link href="https://blog.vatebur.cn/archives/eclipseweb%E9%A1%B9%E7%9B%AE%E5%AF%BC%E5%85%A5idea%E5%B7%A6%E4%BE%A7project%E4%B8%8D%E8%A7%81"/>
+        <updated>2021-12-03T23:06:01.000Z</updated>
+        <summary type="html"><![CDATA[eclipse WEB项目导入idea左侧project不见用idea打开eclipse 项目会发现左侧projcet消失现了]]></summary>
+        <author>
+            <name>VATE快乐屋</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[如何正确使用remove(Object o)删除ArrayList中的自定义对象(如何从ArrayList中删除特定的对象？)]]></title>
         <id>https://blog.csdn.net/m0_50957668/article/details/121602919</id>
         <link href="https://blog.csdn.net/m0_50957668/article/details/121602919"/>
@@ -220,6 +420,16 @@ Tomcat 在 idea 中的 Localhost 与 Catalina 乱码
         <summary type="html"><![CDATA[整理了Java中ArrayList集合删除特定元素(remove(Object o)方法)的具体用法希望可以帮到和我一样对此产生疑问但找不到答案的人]]></summary>
         <author>
             <name>m0_50957668</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[linux的基本命令和常用开发工具]]></title>
+        <id>https://blog.vatebur.cn/archives/linux%E7%9A%84%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4%E5%92%8C%E5%B8%B8%E7%94%A8%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7</id>
+        <link href="https://blog.vatebur.cn/archives/linux%E7%9A%84%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4%E5%92%8C%E5%B8%B8%E7%94%A8%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7"/>
+        <updated>2021-11-17T23:01:56.000Z</updated>
+        <summary type="html"><![CDATA[linux的基本命令和常用开发工具]]></summary>
+        <author>
+            <name>VATE快乐屋</name>
         </author>
     </entry>
     <entry>
