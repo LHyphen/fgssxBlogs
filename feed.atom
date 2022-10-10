@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-10-09T02:22:06.987Z</id>
+    <id>urn:2022-10-10T02:24:30.937Z</id>
     <title>osmos::feed</title>
-    <updated>2022-10-09T02:22:06.987Z</updated>
+    <updated>2022-10-10T02:24:30.937Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -11,16 +11,6 @@
         <link href="https://blog.vatebur.cn/archives/11451465535"/>
         <updated>2022-10-02T01:32:52.000Z</updated>
         <summary type="html"><![CDATA[GreatSQL 主从复制搭建笔记，包括异步复制，半同步复制，多主模式。GreatSQL是MySQL 的分支，专注于提升MGR可靠性及性能，支持InnoDB并行查询等特性，]]></summary>
-        <author>
-            <name>VATE快乐屋</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[浅谈新的 MySQL 身份验证插件]]></title>
-        <id>https://blog.vatebur.cn/archives/11412315</id>
-        <link href="https://blog.vatebur.cn/archives/11412315"/>
-        <updated>2022-10-01T16:29:03.000Z</updated>
-        <summary type="html"><![CDATA[从 MySQL 8.0.4 开始，MySQL 默认身份验证插件做出了改变，阅读本文来看看具体会产生什么影响。]]></summary>
         <author>
             <name>VATE快乐屋</name>
         </author>
@@ -420,6 +410,16 @@ Tomcat 在 idea 中的 Localhost 与 Catalina 乱码
         <summary type="html"><![CDATA[学校期末考试自用，没啥含金量]]></summary>
         <author>
             <name>qq_53958979</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[eclipse WEB项目导入idea左侧project不见]]></title>
+        <id>https://blog.vatebur.cn/archives/eclipseweb%E9%A1%B9%E7%9B%AE%E5%AF%BC%E5%85%A5idea%E5%B7%A6%E4%BE%A7project%E4%B8%8D%E8%A7%81</id>
+        <link href="https://blog.vatebur.cn/archives/eclipseweb%E9%A1%B9%E7%9B%AE%E5%AF%BC%E5%85%A5idea%E5%B7%A6%E4%BE%A7project%E4%B8%8D%E8%A7%81"/>
+        <updated>2021-12-03T23:06:01.000Z</updated>
+        <summary type="html"><![CDATA[eclipse WEB项目导入idea左侧project不见用idea打开eclipse 项目会发现左侧projcet消失现了]]></summary>
+        <author>
+            <name>VATE快乐屋</name>
         </author>
     </entry>
     <entry>
