@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-10-13T02:25:51.547Z</id>
+    <id>urn:2022-10-14T02:36:06.302Z</id>
     <title>osmos::feed</title>
-    <updated>2022-10-13T02:25:51.547Z</updated>
+    <updated>2022-10-14T02:36:06.302Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[RustDeak 服务端搭建笔记]]></title>
+        <id>https://blog.vatebur.cn/archives/41241244</id>
+        <link href="https://blog.vatebur.cn/archives/41241244"/>
+        <updated>2022-10-13T02:42:34.000Z</updated>
+        <summary type="html"><![CDATA[RustDeak 服务端搭建笔记]]></summary>
+        <author>
+            <name>VATE快乐屋</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[记一次主从复制搭建]]></title>
         <id>https://blog.vatebur.cn/archives/11451465535</id>
@@ -90,6 +100,16 @@ Tomcat 在 idea 中的 Localhost 与 Catalina 乱码
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[连接查询中WHERE 和 ON 的区别]]></title>
+        <id>https://blog.csdn.net/m0_50957668/article/details/126763408</id>
+        <link href="https://blog.csdn.net/m0_50957668/article/details/126763408"/>
+        <updated>2022-09-08T06:14:18.000Z</updated>
+        <summary type="html"><![CDATA[在 SQL 连接查询时关于使用 WHERE 和 JOIN ON 的区别讨论以及社区语法规范推荐]]></summary>
+        <author>
+            <name>m0_50957668</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Visual Studio Code使用TDM—gcc编译器配置c/c++环境]]></title>
         <id>https://blog.csdn.net/qq_53958979/article/details/126668499</id>
         <link href="https://blog.csdn.net/qq_53958979/article/details/126668499"/>
@@ -150,6 +170,17 @@ Tomcat 在 idea 中的 Localhost 与 Catalina 乱码
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Windows如何自定义右键新建菜单栏]]></title>
+        <id>https://blog.csdn.net/m0_50957668/article/details/125949328</id>
+        <link href="https://blog.csdn.net/m0_50957668/article/details/125949328"/>
+        <updated>2022-07-23T08:37:36.000Z</updated>
+        <summary type="html"><![CDATA[突发奇想想在右键菜单的新建里加个markdown，看网上的教程踩了一堆坑
+把自己搜到和尝试出来的东西做个总结以供参考，侵删]]></summary>
+        <author>
+            <name>m0_50957668</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[[docker]搭建个人浏览器导航页（heimdall）]]></title>
         <id>https://blog.vatebur.cn/archives/docker%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B</id>
         <link href="https://blog.vatebur.cn/archives/docker%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B"/>
@@ -190,6 +221,16 @@ Tomcat 在 idea 中的 Localhost 与 Catalina 乱码
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Android程序设计2020期末编程知识点整理]]></title>
+        <id>https://blog.csdn.net/m0_50957668/article/details/125099733</id>
+        <link href="https://blog.csdn.net/m0_50957668/article/details/125099733"/>
+        <updated>2022-06-02T06:09:47.000Z</updated>
+        <summary type="html"><![CDATA[坏了编程题忘记整了]]></summary>
+        <author>
+            <name>m0_50957668</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Android JSON数据解析]]></title>
         <id>https://blog.csdn.net/qq_53958979/article/details/125086028</id>
         <link href="https://blog.csdn.net/qq_53958979/article/details/125086028"/>
@@ -200,6 +241,16 @@ Tomcat 在 idea 中的 Localhost 与 Catalina 乱码
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[2022Android程序设计期末知识点整理]]></title>
+        <id>https://blog.csdn.net/m0_50957668/article/details/125081604</id>
+        <link href="https://blog.csdn.net/m0_50957668/article/details/125081604"/>
+        <updated>2022-06-01T05:02:17.000Z</updated>
+        <summary type="html"><![CDATA[仅供班级复习用，无含金量]]></summary>
+        <author>
+            <name>m0_50957668</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[浅谈linux网络编程中select,poll,epoll的区别]]></title>
         <id>https://blog.csdn.net/qq_53958979/article/details/125073959</id>
         <link href="https://blog.csdn.net/qq_53958979/article/details/125073959"/>
@@ -207,6 +258,17 @@ Tomcat 在 idea 中的 Localhost 与 Catalina 乱码
         <summary type="html"><![CDATA[简要讲一下多路复用I/Oselect epoll poll的区别]]></summary>
         <author>
             <name>qq_53958979</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2022数据库期末考简答题知识点整理]]></title>
+        <id>https://blog.csdn.net/m0_50957668/article/details/125030969</id>
+        <link href="https://blog.csdn.net/m0_50957668/article/details/125030969"/>
+        <updated>2022-05-29T06:53:51.000Z</updated>
+        <summary type="html"><![CDATA[仅供班级复习，无含金量
+摆了几天没做这玩意，希望还来得及]]></summary>
+        <author>
+            <name>m0_50957668</name>
         </author>
     </entry>
     <entry>
@@ -320,6 +382,17 @@ Tomcat 在 idea 中的 Localhost 与 Catalina 乱码
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[2021Java期末考选择判断题复习]]></title>
+        <id>https://blog.csdn.net/m0_50957668/article/details/122087171</id>
+        <link href="https://blog.csdn.net/m0_50957668/article/details/122087171"/>
+        <updated>2021-12-22T07:38:37.000Z</updated>
+        <summary type="html"><![CDATA[仅作为班级期末复习整理
+无含金量]]></summary>
+        <author>
+            <name>m0_50957668</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[2021 JAVA期末复习（编程题）3]]></title>
         <id>https://blog.csdn.net/qq_53958979/article/details/122083290</id>
         <link href="https://blog.csdn.net/qq_53958979/article/details/122083290"/>
@@ -350,13 +423,13 @@ Tomcat 在 idea 中的 Localhost 与 Catalina 乱码
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[eclipse WEB项目导入idea左侧project不见]]></title>
-        <id>https://blog.vatebur.cn/archives/eclipseweb%E9%A1%B9%E7%9B%AE%E5%AF%BC%E5%85%A5idea%E5%B7%A6%E4%BE%A7project%E4%B8%8D%E8%A7%81</id>
-        <link href="https://blog.vatebur.cn/archives/eclipseweb%E9%A1%B9%E7%9B%AE%E5%AF%BC%E5%85%A5idea%E5%B7%A6%E4%BE%A7project%E4%B8%8D%E8%A7%81"/>
-        <updated>2021-12-03T23:06:01.000Z</updated>
-        <summary type="html"><![CDATA[eclipse WEB项目导入idea左侧project不见用idea打开eclipse 项目会发现左侧projcet消失现了]]></summary>
+        <title type="html"><![CDATA[如何正确使用remove(Object o)删除ArrayList中的自定义对象(如何从ArrayList中删除特定的对象？)]]></title>
+        <id>https://blog.csdn.net/m0_50957668/article/details/121602919</id>
+        <link href="https://blog.csdn.net/m0_50957668/article/details/121602919"/>
+        <updated>2021-11-29T01:56:46.000Z</updated>
+        <summary type="html"><![CDATA[整理了Java中ArrayList集合删除特定元素(remove(Object o)方法)的具体用法希望可以帮到和我一样对此产生疑问但找不到答案的人]]></summary>
         <author>
-            <name>VATE快乐屋</name>
+            <name>m0_50957668</name>
         </author>
     </entry>
     <entry>
