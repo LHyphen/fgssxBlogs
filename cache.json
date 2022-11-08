@@ -355,7 +355,7 @@
           "description": "pip命令切换镜像源",
           "link": "https://blog.csdn.net/qq_53958979/article/details/125536203",
           "publishedOn": "2022-06-30T02:54:40.000Z",
-          "wordCount": 1184,
+          "wordCount": 1183,
           "title": "使用pip命令切换不同的镜像源",
           "imageUrl": null
         },
@@ -365,7 +365,7 @@
           "description": "对于大小端模式的一些概括",
           "link": "https://blog.csdn.net/qq_53958979/article/details/125194062",
           "publishedOn": "2022-06-08T15:32:27.000Z",
-          "wordCount": 1078,
+          "wordCount": 1110,
           "title": "大端模式和小端模式的区别",
           "imageUrl": null
         },
@@ -375,7 +375,7 @@
           "description": "对于网络编程中JSON解析数据的一些看法",
           "link": "https://blog.csdn.net/qq_53958979/article/details/125086028",
           "publishedOn": "2022-06-01T08:54:19.000Z",
-          "wordCount": 1192,
+          "wordCount": 1187,
           "title": "Android JSON数据解析",
           "imageUrl": null
         },
@@ -395,7 +395,7 @@
           "description": "今天碰到的问题，当作笔记记下来了",
           "link": "https://blog.csdn.net/qq_53958979/article/details/122776094",
           "publishedOn": "2022-02-03T07:20:13.000Z",
-          "wordCount": 1282,
+          "wordCount": 1283,
           "title": "c++中基类的析构函数为什么要写成虚函数",
           "imageUrl": null
         },
@@ -405,7 +405,7 @@
           "description": ":D",
           "link": "https://blog.csdn.net/qq_53958979/article/details/122083290",
           "publishedOn": "2021-12-22T05:36:07.000Z",
-          "wordCount": 1652,
+          "wordCount": 1639,
           "title": "2021 JAVA期末复习（编程题）3",
           "imageUrl": null
         },
@@ -415,7 +415,7 @@
           "description": "自用材料",
           "link": "https://blog.csdn.net/qq_53958979/article/details/122060941",
           "publishedOn": "2021-12-21T09:48:39.000Z",
-          "wordCount": 1623,
+          "wordCount": 1570,
           "title": "2021 JAVA期末复习（编程题）2",
           "imageUrl": null
         },
@@ -425,7 +425,7 @@
           "description": "学校期末考试自用，没啥含金量",
           "link": "https://blog.csdn.net/qq_53958979/article/details/122053865",
           "publishedOn": "2021-12-20T18:36:33.000Z",
-          "wordCount": 1640,
+          "wordCount": 1639,
           "title": "2021 JAVA期末复习（编程题）1",
           "imageUrl": null
         }
@@ -452,7 +452,7 @@
           "description": "突发奇想想在右键菜单的新建里加个markdown，看网上的教程踩了一堆坑\n把自己搜到和尝试出来的东西做个总结以供参考，侵删",
           "link": "https://blog.csdn.net/m0_50957668/article/details/125949328",
           "publishedOn": "2022-07-23T08:37:36.000Z",
-          "wordCount": 1086,
+          "wordCount": 1092,
           "title": "Windows如何自定义右键新建菜单栏",
           "imageUrl": null
         },
@@ -472,7 +472,7 @@
           "description": "仅供班级复习用，无含金量",
           "link": "https://blog.csdn.net/m0_50957668/article/details/125081604",
           "publishedOn": "2022-06-01T05:02:17.000Z",
-          "wordCount": 1678,
+          "wordCount": 1692,
           "title": "2022Android程序设计期末知识点整理",
           "imageUrl": null
         },
@@ -502,7 +502,7 @@
           "description": "整理了Java中ArrayList集合删除特定元素(remove(Object o)方法)的具体用法希望可以帮到和我一样对此产生疑问但找不到答案的人",
           "link": "https://blog.csdn.net/m0_50957668/article/details/121602919",
           "publishedOn": "2021-11-29T01:56:46.000Z",
-          "wordCount": 1462,
+          "wordCount": 1502,
           "title": "如何正确使用remove(Object o)删除ArrayList中的自定义对象(如何从ArrayList中删除特定的对象？)",
           "imageUrl": null
         }
